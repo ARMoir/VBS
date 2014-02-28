@@ -1,0 +1,14 @@
+x = 0
+z = 5
+Do
+x = x+1
+Do
+z = z-1
+If x=z Then
+Array(x) = Array(z)
+ElseIf Array(x) = Array(z) Then
+Array(x) = ""
+End If
+Loop Until z=0
+z = 5
+Loop Until x=5
